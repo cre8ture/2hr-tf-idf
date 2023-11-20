@@ -1,0 +1,61 @@
+body {
+    background-color: yellow;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    color: yellow;
+}
+
+main {
+    padding: 20px;
+}
+.input-section {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Organize items in a row */
+    gap: 10px; /* Optional: Adds some space between grid items */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .input-section {
+        grid-template-columns: 1fr; /* Organize items in a column */
+    }
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    background-color: #1338BE;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.documents {
+    border: 2px solid black;
+    padding: 20px;
+
+        box-shadow: 0px 0px 10px 2px #1338BE;
+}
+
+.document-item {
+    margin-bottom: 10px;
+}
+
+/* Add any additional styling as needed */

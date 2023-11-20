@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TF-IDF Document Similarity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="header">TF-IDF Document Similarity</h1>
+    </header>
+    <main>
+        <div class="input-section">
+            <div class="info"> <code> TF-IDF, short for Term Frequency-Inverse Document Frequency, is a numerical statistic used in Natural Language Processing (NLP) to reflect how important a word is to a document in a collection or corpus. It's a product of two statistics: term frequency and inverse document frequency. Term frequency measures how frequently a term occurs in a document, while inverse document frequency diminishes the weight of terms that occur very frequently in the document set and increases the weight of terms that occur rarely. Therefore, TF-IDF helps to adjust for the fact that some words appear more frequently in general and provides a way to assess the importance of words in a document relative to the entire corpus.</code></div>
+            <div class="controls">
+            <textarea id="document-input" placeholder="Enter a new document..."></textarea>
+            <button id="add-document">Add Document</button>
+        </div>
+        </div>
+        
+        <div class="documents">
+            <!-- Document list will be displayed here -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
